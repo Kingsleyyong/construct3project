@@ -678,7 +678,30 @@
 		}
 	],
 	"sid": 699189656112731,
-	"nonworld-instances": [],
+	"nonworld-instances": [
+		{
+			"type": "ArrayLeaderboard",
+			"properties": {
+				"width": 10,
+				"height": 1,
+				"depth": 1
+			},
+			"uid": 19,
+			"instanceVariables": {}
+		},
+		{
+			"type": "DictionaryPlayFab",
+			"properties": {},
+			"uid": 21,
+			"instanceVariables": {}
+		},
+		{
+			"type": "DictionaryData",
+			"properties": {},
+			"uid": 22,
+			"instanceVariables": {}
+		}
+	],
 	"effectTypes": [],
 	"width": 1708,
 	"height": 960,

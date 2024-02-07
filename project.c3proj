@@ -8,8 +8,36 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Dictionary",
+			"name": "Dictionary",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -95,7 +123,12 @@
 			"Monster",
 			"Bullet",
 			"Explotion",
-			"Text"
+			"Text",
+			"Browser",
+			"ArrayLeaderboard",
+			"LocalStorage",
+			"DictionaryPlayFab",
+			"DictionaryData"
 		],
 		"subfolders": []
 	},
@@ -113,14 +146,39 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"ePlayFab"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
-			"subfolders": []
+			"items": [
+				{
+					"name": "PlayFab.js",
+					"type": "application/javascript",
+					"sid": 132290585302971,
+					"script-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "PlayFabClientApi.js",
+							"type": "application/javascript",
+							"sid": 135087304926561,
+							"script-info": {
+								"purpose": "none"
+							}
+						}
+					],
+					"subfolders": [],
+					"name": "PlayFabSDK"
+				}
+			]
 		},
 		"sound": {
 			"items": [],
